@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jazyková škola Zlín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.woff2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.woff"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.ttf"
+    />
+    <link rel="icon" type="image/x-icon" href="obrazky/logo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/cssEdit.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+
+  <kartaBody>
+    <header>
+      <nav class="navbar navbar-expand-lg navigace">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="navbar-collapse justify-content-md-center collapse show" id="navbarsExample10">
+          
+          
+
+          <div class="collapse navbar-collapse justify-content-md-center">
+            <ul class="navbar-nav">
+
+              <li class="nav-item navLogo">
+                <a href="#"><img src="obrazky/logo-gjs-2015-2016.svg" alt="logo školy" width="48px" height="48px"/></a>
+              </li>
+
+              <li class="nav-item dropdown navPolozka">
+                <a class="nav-link dropdown-toggle navOdkaz" href="#" data-bs-toggle="dropdown">INFORMACE</a>
+                <ul class="dropdown-menu dropbox-text">
+                  <li><a class="dropdown-item" href="#">Úvodní stránka</a></li>
+                  <li><a class="dropdown-item" href="#">Všeobecné informace</a></li>
+                  <li><a class="dropdown-item" href="#">Charakteristika školy</a></li>
+                  <li><a class="dropdown-item" href="#">Denní studium</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown navPolozka">
+                <a class="nav-link dropdown-toggle navOdkaz" href="#" data-bs-toggle="dropdown">KURZY</a>
+                <ul class="dropdown-menu  dropbox-text">
+                  <li><a class="dropdown-item" href="#">Anglický jazyk – docházkové kurzy</a></li>
+                  <li><a class="dropdown-item" href="#">Anglický jazyk – konverzační kurzy</a></li>
+                  <li><a class="dropdown-item" href="#">Anglický jazyk – přípravné kurzy</a></li>
+                  <li><a class="dropdown-item" href="#">Německý jazyk – docházkové kurzy</a></li>
+                  <li><a class="dropdown-item" href="#">Německý jazyk – konverzační  kurzy</a></li>
+                  <li><a class="dropdown-item" href="#">Rozvrh</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown navPolozka">
+                <a class="nav-link dropdown-toggle navOdkaz" href="#" data-bs-toggle="dropdown">JAZYKOVÁ POKROČILOST</a>
+                <ul class="dropdown-menu dropbox-text">
+                  <li><a class="dropdown-item" href="#">Popis úrovní</a></li>
+                  <li><a class="dropdown-item" href="#">CEFR</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown navPolozka">
+                <a class="nav-link dropdown-toggle navOdkaz" href="#" data-bs-toggle="dropdown">DALŠÍ INFORMACE</a>
+                <ul class="dropdown-menu dropbox-text">
+                  <li><a class="dropdown-item" href="#">Otázky a odpovědi</a></li>
+                  <li><a class="dropdown-item" href="#">Zveřejňování informací</a></li>
+                  <li><a class="dropdown-item" href="#">Projekt ESF</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown navPolozka">
+                <a class="nav-link dropdown-toggle navOdkaz" href="#" data-bs-toggle="dropdown">ZKOUŠKY</a>
+                <ul class="dropdown-menu dropbox-text">
+                  <li><a class="dropdown-item" href="#">Cambridge exams</a></li>
+                  <li><a class="dropdown-item" href="#">Goethe Zertifikat B1</a></li>
+                  <li><a class="dropdown-item" href="#">Státní jazykové zkoušky</a></li>
+                  <li><a class="dropdown-item" href="#">Mezinárodní jazykové zkoušky</a></li>
+                  <li><a class="dropdown-item" href="#">Čeština pro cizince A1</a></li>
+                  <li><a class="dropdown-item" href="#">Čeština pro cizince A2</a></li>
+                  <li><a class="dropdown-item" href="#">Osvědčení o znalosti jazyka</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item navPolozka">
+                <a class="nav-link navOdkaz" href="#"><i class="fa fa-phone ikona-phone"></i>KONTAKTY</a>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="py-2 prouzek"></div>
+
+      <div class="banner-obrazek" style="background-image: url('obrazky/pozadibanner.png');">
+        <div class="container position-relative">
+          <!-- <div class="d-flex justify-content-md-center"> -->
+            <div class="d-flex flex-wrap justify-content-center">
+              <p class="banner-text">JAZYKOVÁ ŠKOLA</p>
+              <p class="banner-text-male">S PRÁVEM STÁTNÍ JAZYKOVÉ ZKOUŠKY ZLÍN</p>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    
+
+      
+    </header>
+
+    <!-- Main content and aside -->
+    <section class="cta">
+      <ul class="cta__list">
+        <li class="cta__item">
+          <h2 class="cta__item--header">Testy z češtiny</h2>
+          <p class="cta__item--text">
+            Chci se přihlásit do kurzu přes online formulář.
+          </p>
+          <a class="cta__item--button" href="#">Přihlásit</a>
+        </li>
+        <li class="cta__item">
+          <h2 class="cta__item--header">Testy z angličtiny</h2>
+          <p class="cta__item--text">
+            Chci se přihlásit do kurzu přes online formulář.
+          </p>
+          <a class="cta__item--button" href="#">Přihlásit</a>
+        </li>
+        <li class="cta__item">
+          <h2 class="cta__item--header">Testy z němčiny</h2>
+          <p class="cta__item--text">
+            Chci se přihlásit do kurzu přes online formulář.
+          </p>
+          <a class="cta__item--button" href="#">Přihlásit</a>
+        </li>
+        <li class="cta__item">
+          <h2 class="cta__item--header">Zápis do kurzů</h2>
+          <p class="cta__item--text">
+            Chci se přihlásit do kurzu přes online formulář.
+          </p>
+          <a class="cta__item--button" href="#">Přihlásit</a>
+        </li>
+      </ul>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Aktuality</h2>
+          <div class="aktualita">
+            <h3>Registrace</h3>
+            <p>
+              Informace o zkouškách najdete v sekci zkoušky/Cambridge exams.
+              Další informace jsou k dispozici v kanceláři školy nebo na
+              jirikovska@gjszlin.cz
+            </p>
+          </div>
+          <div class="aktualita">
+            <h3>PF 2023</h3>
+            <p>
+              Vážení posluchači jazykových kurzů, rádi bychom vám touto cestou
+              popřáli klidné a pohodové vánoce a mnoho štěstí i osobních a
+              profesních úspěchů v novém roce 2023. Zároveň bychom vám chtěli
+              dát na vědomí, že budova školy bude po dobu vánočních svátků
+            </p>
+            <img src="obrazky/PF2023-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <section class="mb-2">
+                <div class="card zlutaKarta">
+                  <div class="card-kartaBody">
+                    <h5 class="card-title text-center KartaNadpisTucne">
+                      ZÁPIS DO KURZŮ
+                    </h5>
+                    <ul>
+                      <li class="kartaBod kartaBodPosledni">
+                        Chci se přihlásit do kurzu přes online formulář.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-12 mb-3">
+              <section class="mb-2">
+                <div class="card zlutaKarta">
+                  <div class="card-kartaBody">
+                    <h5 class="card-title text-center KartaNadpisTucne">
+                      KONTAKT
+                    </h5>
+                    <ul>
+                      <li class="kartaBod">E-mail: js@gjszlin.cz</li>
+                      <li class="kartaBod">Tel.: 577 007 444-7</li>
+                      <li class="kartaBod">Fax: 577 007 444-7</li>
+                      <li class="kartaBod">nám. T. G. Masaryka 2734</li>
+                      <li class="kartaBod kartaBodPosledni">760 01 Zlín</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-12 mb-3">
+              <section class="mb-2">
+                <div class="card zlutaKarta">
+                  <div class="card-kartaBody">
+                    <h5 class="card-title text-center KartaNadpisTucne">
+                      ÚŘEDNÍ HODINY
+                    </h5>
+                    <ul>
+                      <li class="kartaBod kartaBodPosledni">St: 9:00–12:00</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-12 mb-3">
+              <section class="mb-2">
+                <div class="card bilaKarta">
+                  <div class="card-kartaBody">
+                    <h5 class="card-title text-center bilaKartaNadpisTucne">
+                      Odkazy
+                    </h5>
+                    <ul>
+                      <li class="bilaKartaBod">
+                        <a href="#!"
+                          ><span
+                            class="glyphicon glyphicon-chevron-right kartaOdrazka"
+                          ></span>
+                          Registrace na Cambridge exams</a
+                        >
+                      </li>
+                      <li class="bilaKartaBod">
+                        <a href="#!"
+                          ><span
+                            class="glyphicon glyphicon-chevron-right kartaOdrazka"
+                          ></span>
+                          Projekty ESF</a
+                        >
+                      </li>
+                      <li class="bilaKartaBod">
+                        <a href="#!"
+                          ><span
+                            class="glyphicon glyphicon-chevron-right kartaOdrazka"
+                          ></span>
+                          Čeština pro cizince
+                        </a>
+                      </li>
+                      <li class="bilaKartaBod">
+                        <a href="#!"
+                          ><span
+                            class="glyphicon glyphicon-chevron-right kartaOdrazka"
+                          ></span>
+                          Stránky gymnázia</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-md-12 mb-3">
+              <section class="mb-2">
+                <div class="card bilaKarta">
+                  <div class="card-kartaBody">
+                    <h5 class="card-title text-center bilaKartaNadpisTucne">
+                      Kde nás najdete?
+                    </h5>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe
+                        class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.0034541887258!2d17.66471121627143!3d49.21946158316821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713734f7752ae75%3A0xa5092748cd99c6e6!2zR3ltbsOheml1bSBhIEphenlrb3bDoSDFoWtvbGEgcyBwcsOhdmVtIHN0w6F0bsOtIGphenlrb3bDqSB6a291xaFreSBabMOtbg!5e0!3m2!1scs!2scz!4v1675430390453!5m2!1scs!2scz"
+                        style="border: 0"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center" style="background-color: whitesmoke">
+      <div class="text-center p-1 mt-5 prouzek"></div>
+      <div class="container p-4 d-flex">
+        <section class="text-center">
+          <div class="row">
+            <h4 class="modrytext" style="margin-bottom: 2rem">
+              Jsme oficiálními partnery
+            </h4>
+            <div class="col-lg-1 col-3 mb-4 mb-md-0 mx-auto">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <a href="https://www.cambridgeenglish.org/cz/">
+                  <img
+                    src="obrazky/Cambridge_Assessment_logo.png"
+                    alt="x"
+                    class="w-100"
+                  />
+                </a>
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2)"
+                ></div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-3 mb-4 mb-md-0 mx-auto">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <a
+                  href="https://www.alliancefrancaise.cz/brno/Co-jsou-to-zkousky-DELF-a-DALF"
+                >
+                  <img src="obrazky/Delf-Dalf_Logo.jpg" alt="x" class="w-100" />
+                </a>
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2)"
+                ></div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-3 mb-4 mb-md-0 mx-auto">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <a href="https://www.britishcouncil.cz/">
+                  <img
+                    src="obrazky/british-council.jpg"
+                    alt="x"
+                    class="w-100"
+                  />
+                </a>
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2)"
+                ></div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-3 mb-4 mb-md-0 mx-auto">
+              <div
+                class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                data-ripple-color="light"
+              >
+                <a href="https://www.goethe.de/ins/cz/cs/index.html">
+                  <img
+                    src="obrazky/goethe-institut.png"
+                    alt="x"
+                    class="w-100"
+                  />
+                </a>
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2)"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="text-center p-2 mt-4 zlutypruh"></div>
+      <div
+        class="text-center p-4 prouzek"
+        style="color: white; font-weight: 600"
+      >
+        © JAZYKOVÁ ŠKOLA S&nbsp;PRÁVEM STÁTNÍ JAZYKOVÉ ZKOUŠKY ZLÍN
+      </div>
+    </footer>
+
+    <!-- Link to Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </kartaBody>
+</html>

@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --zluta: #fdc532;
+  --modraSvetlejsi: #176087;
+  --modraTmava: #104561;
+}
+
+header {
+  margin-bottom: 0rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bree Serif", serif;
+  color: var(--modraTmava);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: xx-large;
+  border-bottom: 5px solid var(--zluta);
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 200px;
+}
+
+.aktualita {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5rem;
+}
+
+
+
+.navigace {
+  background-color: var(--zluta);
+  margin-bottom: 0em;
+  font-family: "Bree Serif", serif;
+  color: var(--modraTmava);
+}
+
+.navPolozka {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.navOdkaz{
+  color:  var(--modraTmava);
+  font-size: large;
+}
+
+.navOdkaz:hover{
+  color: #104561;
+}
+
+.navLogo {
+  padding-right: 2em;
+}
+
+.prouzek {
+  background-color: var(--modraTmava);
+  margin: 0em;
+}
+
+.ikona-phone{
+  padding-right: 0.3em;
+}
+
+.dropbox-text{
+  background-color: #fdc532;
+  color: #104561;
+  font-family: "Bree Serif", serif;
+  font-size: small;
+}
+
+.banner-obrazek{
+  background-repeat: no-repeat;
+  margin: 0em;
+  position: relative;
+  height: 381px;
+  
+}
+
+.banner-text{
+  font-family: "Bree Serif", serif;
+  font-size: 5em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.banner-text-male{
+  font-family: "Bree Serif", serif;
+  font-size: 3em;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+.zlutaKarta {
+  position: relative;
+  background-color: var(--zluta);
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-top: 2rem;
+}
+
+.zlutaKarta ul,
+.bilaKarta ul {
+  list-style: none;
+}
+
+.zlutaKarta::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 1.2rem;
+  background-color: var(--modraTmava);
+}
+
+.kartaBod {
+  text-align: center;
+  color: var(--modraTmava);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.kartaBodPosledni {
+  padding-bottom: 1.5rem;
+}
+
+.KartaNadpisTucne {
+  color: var(--modraTmava);
+  font-weight: 600;
+  padding-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bilaKarta {
+  position: relative;
+  background-color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.bilaKarta::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-165.5%, 150%);
+  width: 30%;
+  height: 0.7rem;
+  background-color: var(--modraTmava);
+}
+
+.bilaKartaBod {
+  color: var(--modraTmava);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.bilaKartaNadpisTucne {
+  color: var(--modraTmava);
+  font-weight: 600;
+  padding-top: 2rem;
+  margin-bottom: 0.7rem;
+  font-size: 2.9rem;
+  text-align: left;
+}
+
+.kartaOdrazka {
+  color: var(--modraTmava);
+}
+
+.modrytext {
+  color: var(--modraTmava);
+}
+
+.zlutypruh {
+  background-color: var(--zluta);
+}
+.cta {
+  background-color: var(--modraTmava);
+  padding: 5rem 5rem;
+}
+.cta__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.cta__item::before {
+  content: "";
+  width: 60%;
+  height: 0.5rem;
+  background-color: var(--zluta);
+  position: absolute;
+  top: -1.5rem;
+}
+.cta__item {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  color: white;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta__item--header {
+  font-size: 2.8rem;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  margin: 0;
+  font-weight: 600;
+}
+.cta__item--text{
+}
+
+.cta__item--button {
+  font-size: 1.8rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--zluta);
+  border-radius: 1rem;
+  color: var(--modraTmava);
+  text-decoration: none;
+  font-family: "Bree Serif";
+  width: 10rem;
+}
