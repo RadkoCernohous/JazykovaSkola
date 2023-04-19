@@ -312,3 +312,7 @@ img {
     display: none;
   }
 }
+
+.odkaz {
+  color: var(--modraTmava);
+}
