@@ -279,3 +279,20 @@ h3 {
   font-size: 5rem;
   margin-top: 2rem;
 }
+
+h1 {
+  font-size: 8rem;
+  color: white;
+  font-weight: 500;
+}
+
+.nazev {
+  font-size: 4rem;
+  color: white;
+  font-family: "Bree Serif", serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
