@@ -269,3 +269,8 @@ h3 {
   font-family: "Bree Serif";
   width: 10rem;
 }
+
+
+.dropdown-item {
+  font-size: 1.7rem;
+}
