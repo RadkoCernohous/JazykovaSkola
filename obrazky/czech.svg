@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-<g><g transform="translate(0.000000,338.000000) scale(0.100000,-0.100000)"><path d="M100-1620v-3253.8h4900h4900V-1620v3253.8H5000H100V-1620z M9591.9-50.8v-1395.9H7277.7H4961.5L2878.3-56.6C1730.8,707.7,793.1,1335.4,793.1,1339.3c0,1.9,1979.2,5.8,4399.4,5.8h4399.4V-50.8z M2576-222.2l2083.2-1388.2L2579.8-2996.6C1436.2-3759.1,475.4-4398.3,444.6-4417.5l-55.8-36.6v2843.7v2843.7l53.9-34.7C471.6,1181.4,1432.3,540.2,2576-222.2z M9591.9-3169.9v-1395.9H5188.7c-2541.5,0-4395.6,7.7-4384,17.3c9.6,9.6,949.2,637.3,2087.1,1395.9L4961.5-1774h2314.3h2316.2V-3169.9z"/></g></g>
+<svg width="125" height="84" viewBox="0 0 125 84" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="124.735" height="83.1565" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_250_556" transform="scale(0.00392157 0.00588235)"/>
+</pattern>
+<image id="image0_250_556" width="255" height="170" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACqCAIAAADtKQ7ZAAAEjElEQVR4nO3VsYqdRRjH4ZFdiBEDBhuxk5BO0AsQArkAay9DSCvegjeQUi9iLyCQTuuAbBFiJ2y56BYWE4i7nLPnfN+ZmW/emeepppzix//96Ieffv3lx++/+PxRgsmcvXvw9W8Xv3/26ONvn3659WegqbOHT55d/3Nz8frNH2/++u6brz795MHWX4JGzh4+eZZff7772xFgKh/qTyk5AkzlVv2ZI8AkdtSfHAHmsLv+zBFgbPfVnxwBhnag/swRYEhH1Z8cAUZ0bP2ZI8BIltWfHAEGsrj+zBFgACvrT44A8a2vP3MEiOvU+pMjQFgF6s8cAcIpVn9yBIimZP2ZI0AU5etPjgBBVKk/cwToXMX6kyNA3+rWnzkC9KlF/ckRoEuN6s8cAbrStP7kCNCT1vVnjgA92Kb+5AjQgc3qzxwBNrRx/ckRYDvb1585ArTXS/3JEaC5jurPHAGa6a7+5AjQSo/1Z44AtfVbf3IEqKzr+jNHgEoC1J8cAeqIUX/mCFBWpPqTI0BRwerPHAGKCFl/cgQoIWr9mSPAKWLXnxwBThC+/swRYIVB6k+OAMuNU3/mCHC80epPjgBHG7D+zBHgoGHrT44Ah4xcf+YIsM/49SdHgD2mqD9zBLhjovqTI8Btc9WfOQJkM9afHAFSStPWnzkCk5u6/uQIzG32+jNHYE7qf88RmJD6b3EEpqL+uxyBeah/N0dgBurfyxEYnvoPcAQGpv7DHIFRqf9YjsB41L+AIzAY9S/mCAxD/Ws4AmNQ/3qOQHTqP4kjEJr6C3AEglJ/GY5AROovyRGIRf2FOQKBqL8KRyAE9dfiCPRP/XU5Aj1Tf3WOQLfU34gj0CH1t+MI9Eb9rTkC/VD/BhyBTpxv/YF5/Xtxcfny56ub660/Mi/1b+DxzfWLt6+eX11u/ZHZqb+151eXL96+emzyO6D+dkx+b9TfiMnvkPqrM/ndUn9dJr9n6q/F5PdP/VWY/BDUX5jJD0T9JZn8WNRfhsmPSP0FmPyg1H8Skx+a+tcz+dGpfw2TPwb1L2byh6H+BUz+YNR/LJM/HvUfZvJHpf4DTP7A1L+XyR+e+ncz+TNQ/10mfx7qv8XkT0X975n8Cak/JZM/q9nrN/kzm7p+kz+5Ses3+aQ56zf5ZHPVb/L5v4nqN/ncMUX9Jp+dxq/f5LPPyPWbfO43bP0mn4MGrN/kc6TR6jf5HG+c+k0+Sw1Sv8lnhfD1m3xWi12/yecUUes3+ZwuZP0mnyKC1W/yKShS/SafsmLUb/KpIUD9Jp9Kuq7f5FNVv/WbfGrrsX6TTxvd1W/yaaaj+k0+jfVSv8mnve3rN/lsZeP6TT4b2qx+k8/mtqnf5NOD1vWbfPrRtH6TT1ca1W/y6VCL+k0+fapbv8mnZxXrN/l0rkr9Jp8Qytdv8omiZP0mn1iK1W/yCadA/SafoE6t3+QT1/r6TT7Rrazf5DOAxfWbfIaxrH6Tz0iOrd/kM56j6jf5DOlA/Safgd1Xv8lnbLvrN/nMYEf9Jp9J3Krf5DOVD/WbfGZznkw+szo3+UzrPypgf7fU1i/eAAAAAElFTkSuQmCC"/>
+</defs>
 </svg>
