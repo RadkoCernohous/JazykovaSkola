@@ -10,7 +10,7 @@ let captionText = document.getElementById("caption");
 // Get the aside and nav elements
 let aside = document.getElementById("aside");
 let nav = document.getElementById("nav");
-//
+
 // Get all the images
 let images = document.querySelectorAll('.obrazekEfekt');
 
