@@ -3,7 +3,7 @@ let modal = document.getElementById("myModal");
 modal.style.display = "none";
 // Get the modal image
 let modalImg = document.getElementById("img01");
-//test
+
 // Get the caption text
 let captionText = document.getElementById("caption");
 
